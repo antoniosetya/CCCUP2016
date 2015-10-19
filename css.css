@@ -26,7 +26,7 @@ a {
 	text-decoration : none;
 }
 h1 {
-	font-family : "Exo";
+	font-family : "GearedSlabBold";
 	color : white;
 	font-size : 48px;
 	margin : 10px auto 10px auto;
@@ -34,12 +34,16 @@ h1 {
 /* ADDING CUSTOM FONTS */
 
 @font-face {
-	font-family : "Exo";
-	src : url("./fonts/Exo.otf");
+	font-family : "GearedSlab";
+	src : url("./fonts/GearedSlab.ttf");
 }
 @font-face {
 	font-family : "Montserrat";
 	src : url("./fonts/Montserrat.otf");
+}
+@font-face {
+	font-family : "GearedSlabBold";
+	src : url("./fonts/GearedSlab-Bold.ttf");
 }
 
 /* ENTRANCE ANIMATIONS */
@@ -171,10 +175,6 @@ h1 {
 }
 .logohome {
 	display : inline-block;
-	padding : 10px;
-	width : 410px;
-	height : 410px;
-	background-color : white;
 }
 #but1 {
 	display : inline-block;
@@ -203,46 +203,79 @@ h1 {
 	#but1:hover, #butcent:hover {
 		box-shadow : 0px 0px 10px #9966ff;
 	}
-/* =================================
-				BODY 
-====================================   */
+/* ================================================
+			   BODY & CONTENTS
+===================================================   */
 
 .body {
 	margin : 50px auto 50px auto;
-	flex : 0 1 100%;
 }
 .body p {
 	font-family : "Montserrat";
 	font-size : 18px;
 }
 
-/*===================================
-			CONTENTS 
-===================================== */
+/* GLOBAL CONTENT (unless stated otherwise) */
+
 .content {
-	height: auto;
-    flex: 0 1 100%;
+	height : auto;
+    flex : 0 1 100%;
     padding : 10px;
 	color : white;
-    margin: 100px 10% 20px 10%;
+    margin : 100px 10% 20px 10%;
     background: rgba(0,0,0,0.5);
+}
+
+/* COMPETITIONS */
+
+.wrap-comp {
+	height: auto;
+    padding : 10px;
+	color : white;
+    margin: 100px 7% 50px 7%;
+}
+.list-comp, .content-comp {
+	height : auto;
+	padding : 10px;
+	background : rgba(0,0,0,0.5);
+}
+.list-comp {
+	float : left;
+	width : 350px;
+}
+	.list-comp ul {
+		list-style-type : none;
+		padding : 5px;
+	}
+	.list-comp ul li {
+		height : 20px;
+		width : 330px;
+		border-bottom : 1px solid #fff;
+	}
+	.list-comp ul li:hover {
+		background-color : rgba(255,255,255,0.6);
+	}
+.content-comp {
+	float : right;
+	width : 740px;
 }
 /*===================================
    			   FOOTERS
 ===================================== */
 
-.footer {
-	bottom : 0;
-	left : 0;
+footer {
+	bottom : 0%;
+	left : 0%;
 	position : relative;
 	margin-left : 0px;
 	margin-right : 0px;
+	margin-bottom : 0px;
 	min-width : auto;
 	width : 100%;
-	height : auto;
+	height : 95px;
 	background-color : linear-gradient(#000000, #222222);
 	box-shadow : 0px 0px 12px 1px #222222;
-	z-index : 10;
+	z-index : 1000;
 }
 .foot-temp{
 		z-index	: 9990;

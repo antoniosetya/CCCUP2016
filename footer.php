@@ -1,6 +1,4 @@
-<!DOCTYPE html>
-<html>
-<section class="footer">
+<footer>
 	<div class="foot-temp" style="height : 150px">
 		<img height="64px" src="./img/logo_amdg.png" style="position : absolute; left : 50%; margin-left : -30px" width="64px" />
 		<div class="foot-tab" style="order: 1; flex: 0 1 200px">
@@ -18,5 +16,4 @@
 				<img src="./img/sponsor-bca.png" style="margin : 15px 25px auto auto; display : inline-block; height : 30px; width : auto"/>
 		</div>
 	</div>
-</section>
-</html>
+</footer>

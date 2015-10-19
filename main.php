@@ -17,11 +17,11 @@
 	<div class="containerbut" align="center">
 		<div class="leftbutton">
 			<a class="button" id="but1" href="#">ABOUT<br>CC CUP 2016</a><br>
-			<a class="button" id="but1" href="competitions.html">COMPETITIONS</a>
+			<a class="button" id="but1" href="competitions.php">COMPETITIONS</a>
  		</div>
 		<div class="center" align="center">
 			<div class="logohome" id="fadeIn" align="center">
-				CANISIUS COLLEGE CUP 2016 <br> LOGO
+				<img src="./img/homelogo.png" width="420px" height="420px">
 			</div><br>
 			<a class="button" id="butcent" href="./pendaftaran/">FREE REGISTRATION!</a>
 		</div>

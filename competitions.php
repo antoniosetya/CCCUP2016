@@ -13,18 +13,26 @@
 </head>
 <body>
 
-<section class="header">
+<header>
 	<h1 align="center">COMPETITIONS</h1>
-</section>
+</header>
 
 <?php 
 include('menubar.php');
 ?>
 
 <section class="body">
-	<div class="content">
-		<p>This page is currently on progress to be made. Well, the whole website is still in the making.</p> 
-	</div>	
+	<div class="wrap-comp">
+		<div class="list-comp">
+			<ul>
+				<li>SEPAK BOLA</li>
+				<li>BASKET</li>
+			</ul>
+		</div>
+		<div class="content-comp">
+			<p>Please select one of the competitions on the left side to read the info</p>
+		</div>	
+	</div>
 </section>
 
 <?php 
