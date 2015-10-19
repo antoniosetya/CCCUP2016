@@ -141,19 +141,9 @@ h1 {
 	display : inline-block;
 }
 
-/* =================================
-				BODY 
-====================================   */
-
-.body {
-	margin-bottom : 25px;
-}
-.body p {
-	font-family : "Montserrat";
-	font-size : 18px;
-}
-
-/* Home Logo & Buttons */
+/* ============================================
+			HOME PAGE BUTTONS 
+=============================================== */
 
 .containerbut {
 	display : inline-block;
@@ -162,11 +152,22 @@ h1 {
 	height : auto;
 }
 .leftbutton {
+	display : inline-block;
 	left : 15%;
+	width : auto;
+	height : 100%;
+	margin : auto 50px auto auto;
+}
+.center {
+	display : inline-block;
+	text-align : center;
+	width : auto;
 }
 .rightbutton {
-	float : right;
+	display : inline-block;
 	right : 15%;
+	width : auto;
+	margin : auto auto auto 50px;
 }
 .logohome {
 	display : inline-block;
@@ -175,25 +176,45 @@ h1 {
 	height : 410px;
 	background-color : white;
 }
-
-/* BUTTONS */
-
 #but1 {
-	display : block;
+	display : inline-block;
+	margin-top : 25px;
+	padding : 25px;
+	font-family : "Montserrat";
+	font-size : 16px;
+	color : black;
+	background-color : white;
+	border-radius : 5%;
+	text-decoration : none;
+	word-wrap : break-word;
+}
+#butcent {
+	display : inline-block;
 	margin-top : 25px;
 	padding : 20px;
-	width : 206px;
-	height : auto;
+	width : 360px;
 	font-family : "Montserrat";
-	font-size : 20px;
+	font-size : 16px;
 	color : black;
 	background-color : white;
 	border-radius : 5px;
 	text-decoration : none;
 }
-	#but1:hover {
+	#but1:hover, #butcent:hover {
 		box-shadow : 0px 0px 10px #9966ff;
 	}
+/* =================================
+				BODY 
+====================================   */
+
+.body {
+	margin : 50px auto 50px auto;
+	flex : 0 1 100%;
+}
+.body p {
+	font-family : "Montserrat";
+	font-size : 18px;
+}
 
 /*===================================
 			CONTENTS 
