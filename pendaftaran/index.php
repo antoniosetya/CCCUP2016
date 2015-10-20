@@ -2,7 +2,7 @@
 <html>
 <head>
 	<?php 
-		include('../menubar.php');
+		include('menubar.php');
 	?>
 	<meta charset = "utf-8">
 	<link href="../css.css" rel="stylesheet" type="text/css" />
