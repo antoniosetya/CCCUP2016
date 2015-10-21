@@ -16,8 +16,8 @@
 <section class="body">
 	<div class="containerbut" align="center">
 		<div class="leftbutton">
-			<a class="button" id="but1" href="#">ABOUT<br>CC CUP 2016</a><br>
-			<a class="button" id="but1" href="competitions.php">COMPETITIONS</a>
+			<a id="but" href="#">ABOUT<br>CC CUP 2016</a><br>
+			<a id="but" href="competitions.php">COMPETITIONS<br> &nbsp </a>
  		</div>
 		<div class="center" align="center">
 			<div class="logohome" id="fadeIn" align="center">
@@ -26,8 +26,8 @@
 			<a class="button" id="butcent" href="./pendaftaran/">FREE REGISTRATION!</a>
 		</div>
 		<div class="rightbutton">
-			<a class="button" id="but1" href="#">News</a><br> 
-			<a class="button" id="but1" href="#">Gallery</a>
+			<a class="button" id="but" href="#">News<br> &nbsp</a><br> 
+			<a class="button" id="but" href="#">Gallery<br> &nbsp</a>
 		</div>
 	</div>			
 </section>
