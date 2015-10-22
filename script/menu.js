@@ -30,3 +30,6 @@ $(".news").click(function(){
 $(".registration").click(function(){
     window.location.href="./pendaftaran";
 })
+$(".contact").click(function(){
+	window.location.href="contact.php";
+});

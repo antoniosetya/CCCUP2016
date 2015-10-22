@@ -4,6 +4,7 @@
 	<meta charset="utf-8">
 	<link href="css.css" rel="stylesheet" type="text/css" />
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script> if (!window.jQuery) { document.write('<script src="./script/jquery-2.1.4.min.js"><\/script>'); } </script>
 	<script src="./script/menu.js"></script>
 	<title>Canisius College Cup 2016</title>
 	<link rel="icon" href="./img/logo.png">
@@ -26,7 +27,7 @@
 			<a class="button" id="butcent" href="./pendaftaran/">FREE REGISTRATION!</a>
 		</div>
 		<div class="rightbutton">
-			<a class="button" id="but" href="#">News<br> &nbsp</a><br> 
+			<a class="button" id="but" href="news.php">News<br> &nbsp</a><br> 
 			<a class="button" id="but" href="#">Gallery<br> &nbsp</a>
 		</div>
 	</div>			
