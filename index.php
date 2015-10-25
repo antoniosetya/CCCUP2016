@@ -46,11 +46,11 @@ if (strpos(strtolower($_SERVER['HTTP_USER_AGENT']),'opera mini') > 0) {
 	<?php
 if ($tablet_browser > 0) {
    // do something for tablet devices
-   print 'is tablet';
+   ?> window.location.href="main.php"; <?php
 }
 else if ($mobile_browser > 0) {
    // do something for mobile devices
-   print 'is mobile';
+   ?> window.location.href="main.php"; <?php
 }
 else {
    // do something for everything else

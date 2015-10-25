@@ -14,7 +14,7 @@
 <body>
 
 <header>
-	<h1 align="center">COMPETITIONS</h1>
+	<h1 align="center">NEWS</h1>
 </header>
 
 <?php 
@@ -22,7 +22,7 @@ include('menubar.php');
 ?>
 
 <section class="body">
-	<div class="containerbut" style="color : white; margin: 100px 7% 50px 7%; width : 85%">
+	<div class="wrap-comp">
 		<div class="list-comp">
 			<p align="center" style="font-size : 20px;">NEWS LIST</p>
 			<ul>

@@ -1,0 +1,122 @@
+/* ===============================================
+		    GLOBAL CONFIGURATIONS
+==================================================*/
+header, section, footer, aside, nav, main, article, figure {
+    display: block; 
+}
+img {
+	max-width : 100%;
+}
+html, body {
+	margin : 0;
+	padding : 0;
+	min-width : 550px;
+	height : auto;
+	width : auto;
+	background-color : black;
+	background-image : url("../img/background.png");	
+	background-attachment: scroll;
+    background-position: left top;
+    background-repeat: repeat;
+	margin : 0px 0px 0px 0px;
+	font-family : "Montserrat";
+}
+a, .ui-link {
+	font-family : inherit;
+	font-size : inherit;
+	color : white;
+}
+h1 {
+	font-family : "GearedSlabBold";
+	color : white;
+	font-size : 48px;
+	margin : 10px auto 10px auto;
+	text-decoration : none;
+}
+p {
+	font-family : "Montserrat";
+	color : white;
+	font-size : 18px;
+}
+ul, li {
+	font-family : "Montserrat";
+	color : white;
+}
+/* ADDING CUSTOM FONTS */
+
+@font-face {
+	font-family : "GearedSlab";
+	src : url("../fonts/GearedSlab.ttf");
+}
+@font-face {
+	font-family : "Montserrat";
+	src : url("../fonts/Montserrat.otf");
+}
+@font-face {
+	font-family : "GearedSlabBold";
+	src : url("../fonts/GearedSlab-Bold.ttf");
+}
+
+/* =================================================
+				HOME PAGE 
+==================================================== */
+.countdown {
+	height : auto;
+    flex : 0 1 100%;
+    padding : 10px;
+	color : white;
+    margin : 30px 30% 20px 30%;
+    background: rgba(0,0,0,0.7);
+}
+/* ==================================================
+				BODY CONTENTS
+===================================================== */
+
+.content {
+	height : auto;
+    flex : 0 1 100%;
+    padding : 10px;
+	color : white;
+    margin : 30px 10% 20px 10%;
+    background: rgba(0,0,0,0.7);
+}
+
+/*              ABOUT 				*/
+.about {
+	height : auto;
+    flex : 0 1 100%;
+    padding : 10px;
+	color : white;
+    margin : 30px 10% 20px 10%;
+    background: rgba(0,0,0,0.7);
+}
+/*              COMPETITIONS         */
+
+.ui-collapsible-content p {
+	color : black;
+	font-size : 16px;
+}
+/* 						NEWS 			*/
+.news {
+	height : auto;
+    flex : 0 1 100%;
+    padding : 10px;
+	color : white;
+    margin : 30px 10% 20px 10%;
+    background: rgba(0,0,0,0.7);
+}
+.news a {
+	text-decoration : none;
+	color : white;
+}
+.news ul {
+	list-style-type : none;
+}
+.news ul li {
+	height : 20px;
+	border-bottom : 1px solid #fff;
+}
+.news ul li a {
+	color : white;
+	text-decoration : none;
+}

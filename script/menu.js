@@ -21,6 +21,9 @@ $(document).scroll(function() {
 $(".index").click(function(){
    window.location.href="main.php"; 
 });
+$(".about").click(function(){
+	window.location.href="about.php";
+});
 $(".competitions").click(function(){
     window.location.href="competitions.php";
 });
