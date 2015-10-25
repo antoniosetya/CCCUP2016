@@ -32,11 +32,6 @@ h1 {
 	font-size : 48px;
 	margin : 10px auto 10px auto;
 }
-p {
-	font-family : "Montserrat";
-	color : white;
-	font-size : 18px;
-}
 /* ADDING CUSTOM FONTS */
 
 @font-face {
@@ -139,7 +134,7 @@ p {
 		cursor : pointer;
 	}
 /* ============================================
-			HOME PAGE BUTTONS 
+			HOME PAGE & THE BUTTONS 
 =============================================== */
 
 .containerbut {
@@ -163,10 +158,14 @@ p {
 .countdown {
 	height : auto;
     flex : 0 1 100%;
-    padding : 10px;
+    padding : 5px;
 	color : white;
-    margin : 30px 30% 20px 30%;
+    margin : 30px 40% 30px 40%;
     background: rgba(0,0,0,0.7);
+}
+.countdown p {
+	font-family : "GearedSlab";
+	font-size : 24px;
 }
 .rightbutton {
 	display : inline-block;

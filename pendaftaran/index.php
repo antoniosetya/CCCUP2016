@@ -13,7 +13,7 @@
 
 <section class="body">
 	<div class="content">
-		<form name="form1" method="POST" action="save.php">
+		<!-- <form name="form1" method="POST" action="save.php">
 		<table>
 			<tr>
 			<td>Nama : </td>
@@ -34,9 +34,10 @@
 		</tr>
 	</table>
 <br><br>
-<p align="center"><a href="../" style="padding : 15px;background-color : orange;">Kembali ke Website Utama</a></p>	
-</form>
-</div>
+	</form> -->
+<p>Registration are still closed now. Stay tuned for more information</p>
+<p align="center"><a href="../" style="padding : 15px;background-color : #333333;">Kembali ke Website Utama</a></p>	
+</div> 
 </section>
 
 <?php

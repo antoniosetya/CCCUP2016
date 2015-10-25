@@ -17,7 +17,7 @@
 <section class="body">
 	<div class="containerbut" align="center">
 		<div class="leftbutton">
-			<a id="but" href="#">ABOUT<br>CC CUP 2016</a><br>
+			<a id="but" href="about.php">ABOUT<br>CC CUP 2016</a><br>
 			<a id="but" href="competitions.php">COMPETITIONS<br> &nbsp </a>
  		</div>
 		<div class="center" align="center">
@@ -30,7 +30,10 @@
 			<a class="button" id="but" href="news.php">News<br> &nbsp</a><br> 
 			<a class="button" id="but" href="#">Gallery<br> &nbsp</a>
 		</div>
-	</div>			
+	</div>	
+	<div class="countdown">
+		<h1 align="center">COMING SOON!<br> JANUARY 2016</h1>
+	</div>		
 </section>
 	
 <?php 
