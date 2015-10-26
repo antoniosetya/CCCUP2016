@@ -1,7 +1,6 @@
-<p align="center" style="font-size : 28px">Website Launched!</p>
-<p>Website Canisius College Cup 2016 ini resmi dibuka!</p>
+<p align="center" style="font-size : 28px"></p>
+<p></p>
    Web ini akan menyajikan berbagai informasi tentang acara Canisius College Cup 2016 (disingkat CC Cup 2016) yang akan diselenggarakan pada Januari 2016.
-   Bersama dengan ini pula, kami juga sudah menerima pendaftaran secara online untuk semua cabang CC Cup 2016.
-   Langsung saja klik "Registrasi" pada menu diatas, dan Anda akan diarahkan ke halaman pendaftaran. 
-   Ingat! Pendaftaran Gratis!</p>
+   Pada saat ini, website masih dalam proses pembuatan dan pembaharuan konten, sehingga informasi yang ada belum lengkap. 
+   Dalam waktu beberapa hari, website ini akan beroperasi dengan normal, termasuk pendaftaran online gratis. Tunggu tanggal mainnya!</p>
 <p>Sekian, dan terima kasih atas perhatiannya.</p>

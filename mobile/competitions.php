@@ -19,7 +19,7 @@
 ?>
 	<div data-role="main" class="ui-content" style="background-image : url('../img/background.png');">
 		<h1 align="center">OUR COMPETITIONS</h1>
-		<p>We have 15 competitions to watch and participate here! Tap on each selection to read more.</p>
+		<p>We have 16 competitions to watch and participate here! Tap on each selection to read more.</p>
 			<div data-role="collapsible">
 				<h1>SEPAK BOLA</h1> 
 				<p><?php include("../compdata/sepakbola.php"); ?></p>

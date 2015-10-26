@@ -15,7 +15,7 @@
 		include("header.php");
 	?>
 	<div data-role="main" class="ui-content" style="background-image : url('../img/background.png');">
-		<div class="news" align="center">
+		<div class="news">
 		<?php 
 			$files = glob("../newsdata/*.php");
 			$count = count($files);

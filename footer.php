@@ -7,8 +7,10 @@
 			</a>
 		</div>
 	<div class="foot-tab" style="order: 3; width : 220px; position : absolute; right : 0px; flex: 0 1 200px; margin-right : 30px">
-		<p>&copy; Made by<br>
-			CC Cup Design Team</p>
+		<p>Connect with us!<br>
+			<div class="social-cont">
+			<a href="https://instagram.com/cccup2016/"><div class="social-but" id="insta"></div></a>
+			</div></p>
 	</div>
 	<hr style="margin-top : 20px; background : white; height : 1px; border : none">
 		<div style="left : 46%;flex: 0 1 100%; width : auto; position : absolute; height : 25px;">

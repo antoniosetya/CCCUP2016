@@ -14,7 +14,7 @@
 	<?php 
 		include("header.php");
 	?>
-	<div data-role="main" class="ui-content" style="background-image : url('../img/background.png');">
+	<div data-role="main" class="ui-content">
 		<div align="center"><img src="../img/homelogo.png" width="300px" height="300px"></div>
 		<div class="countdown" align="center">COMING SOON<br>JANUARY 2016</div>
   	</div>
