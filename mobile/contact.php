@@ -20,20 +20,16 @@
 	<h1 align="center">CONTACT US</h1>
 	<div class="content" align="center">
 		<p style="font-size : 20px">Ketua Canisius College Cup</p>
-		<p><i>insert name here</i></p>
-		<p><i>insert cellphone here</i></p><br>
-		
-		<p style="font-size : 20px">Wakil Ketua Canisius College Cup</p>
-		<p><i>insert name here</i></p>
-		<p><i>insert cellphone here</i></p><br>
-		
+		<p><i>insert name here</i><br>
+		<i>insert cellphone here</i></p><br>
+				
 		<p style="font-size : 20px">Seksi Dana Canisius College Cup</p>
-		<p><i>insert name here</i></p>
-		<p><i>insert cellphone here</i></p><br>
+		<p><i>insert name here</i></br>
+		<i>insert cellphone here</i></p><br>
 		
 		<p style="font-size : 20px">Seksi Bazaar Canisius College Cup</p>
-		<p><i>insert name here</i></p>
-		<p><i>insert cellphone here</i></p><br>
+		<p><i>insert name here</i></br>
+		<i>insert cellphone here</i></p><br>
 	</div>
 </div>
 
