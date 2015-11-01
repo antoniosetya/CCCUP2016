@@ -435,11 +435,12 @@ border-radius : inherit;
 	display : inline-block;
 	margin : 25px 15% 10px 25%;
 }
-	.butcont a {
+	.butcont p a {
 		display : inline-block;
 		padding : 20px;
 		margin : auto 20px auto 20px;
 		background-color : rgba(255,49,38,1);
+		border-radius : 10px;
 	}
 .sel-left, .sel-right {
 	display : inline-block;
@@ -461,6 +462,7 @@ border-radius : inherit;
 	font-size : 16px;
 	background-color : rgba(255,49,38,1);
 	border : 1px solid rgba(255,49,38,1);
+	border-radius : 10px;
 }
 	.button:hover{
 		border : 1px solid RGBA(136,136,136,1);
@@ -483,6 +485,7 @@ border-radius : inherit;
 	text-decoration : none;
 	background-color : rgba(255,49,38,1);
 	border : 1px solid rgba(255,49,38,1);
+	border-radius : 10px;
 }
 	.content table td a:hover {
 		border : 1px solid RGBA(136,136,136,1);

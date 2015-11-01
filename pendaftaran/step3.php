@@ -10,8 +10,8 @@
 <p>Silahkan cek kembali data yang telah dimasukkan disini</p>
 <table>
 	<tr>
-		<td>Nama</td>
-		<td>:</td>
+		<td valign="top">Nama</td>
+		<td valign="top">:</td>
 		<td><?php 
 		foreach ($nama_proc as $line) {
 			echo $line.'<br>';
@@ -38,13 +38,21 @@
 		<input type="hidden" name="cabang" value="<?php echo $cabang; ?>">
 		<input type="hidden" name="sekolah" value="<?php echo $sekolah; ?>">
 		<input type="hidden" name="step" value="2">
+		<div class="butcont" align="center" style="width : 50%">
 		<button type="button" name="enter" class="button" id="enter">Submit Data</button>
 		<button type="button" name="re_input" class="button" id="re_input">Kembali / Revisi Data</button>
+		</div>
+	</form>
+	<form name="backup2" method="post" action="register_do.php">
+		<input type="hidden" name="nama" value="<?php echo $nama; ?>">
+		<input type="hidden" name="cabang" value="<?php echo $cabang; ?>">
+		<input type="hidden" name="sekolah" value="<?php echo $sekolah; ?>">
+		<input type="hidden" name="step" value="2">
 	</form>
 </div>
 <script>
 document.getElementById("enter").addEventListener("click", function(){
-	alert("Mengklik tombol Submit!");
+	document.backup2.submit();
 });
 document.getElementById("re_input").addEventListener("click", function(){
 	document.backup.submit();
