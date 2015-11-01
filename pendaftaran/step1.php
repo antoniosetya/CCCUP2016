@@ -27,6 +27,7 @@
 		<input type="radio" name="cabang" id="cabang" value="MODERN DANCE" onclick="step1()">Modern Dance<br>
 		<input type="radio" name="cabang" id="cabang" value="PASKIBRA" onclick="step1()">Paskibra<br>
 		</div>
+		<input type="hidden" name="step" value="1">
 		<div class="butcont" style="margin : auto auto auto auto; width : 100%">
 		<p align="center"><a href="./">Cancel Registration</a></p>
 		</div>

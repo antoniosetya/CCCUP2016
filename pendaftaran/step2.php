@@ -1,3 +1,16 @@
+<?php
+	if(array_key_exists("nama",$_POST)) {
+		$_SESSION["nama"] = $_POST["nama"];
+		$_SESSION["cabang"] = $_POST["cabang"];
+		$_SESSION["sekolah"] = $_POST["sekolah"];
+		$_SESSION["before"] = 1;		
+	}
+	else {
+		$_SESSION["nama"] = "";
+		$_SESSION["sekolah"] = "";
+		$_SESSION["before"] = 0;
+	}
+?>
 <form name="input_data" method="POST" action="registration.php">
 	<div class="step-status" align="center">STEP 2 : Insert Data</div>
 	<h1 align="center" size="36px">REGISTRATION FORM</h1>
@@ -5,7 +18,7 @@
 		<tr>
 			<td width="20%">Cabang Lomba</td>
 			<td width="2%">:</td>
-			<td><?php echo $_SESSION["comp"] ?></td>
+			<td><?php echo $_SESSION["cabang"] ?></td>
 		</tr>
 		<tr>
 			<td></td>
@@ -16,18 +29,31 @@
 			<td valign="center">Nama</td>
 			<td>:</td>
 			<td><p>Tulis setiap nama pada baris yang baru.</p>
-				<textarea name="nama" rows=5 cols=50></textarea></td> 
+				<textarea name="nama" rows=5 cols=50><?php
+					if($_SESSION["before"] == 1) {
+						$nama = $_SESSION["nama"];
+						$max = count($nama) - 1; 
+						for($i = 0;$i <= $max;$i++) {
+							echo $nama[$i];
+						}
+					}
+					else if($_SESSION["before"] == 0) {
+						echo "";
+					}
+					?></textarea></td> 
 		</tr>
 		<tr>
 			<td>Sekolah</td>
 			<td>:</td>
-			<td><input type="text" name="sekolah" style="width : 370px"></td>
+			<td><input type="text" name="sekolah" style="width : 370px" value="<?php echo $_SESSION["sekolah"]; ?>"></td>
 		</tr>
 		<tr>
 			<td colspan="3"><button type="button" value="submit" class="button" id="input" style="margin-left : 25%">SUBMIT</button></td>
 		</tr>	
 	</table>
 	<input type="hidden" name="complete" value="0">
+	<input type="hidden" name="cabang" value="<?php echo $_SESSION["cabang"]; ?>">
+	<input type="hidden" name="step" value="2">
 </form>
 <script>
 	document.getElementById("erase").addEventListener("click", function(){

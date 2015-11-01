@@ -1,15 +1,24 @@
 <?php
 	session_start();
-	if(array_key_exists('cabang',$_POST)) {
-		$_SESSION["comp"] = $_POST["cabang"];
-		$_SESSION["step"] = 2;
-	}
-	else if(array_key_exists('complete',$_POST)) {
-		if($_POST["complete"] == 1){
-			$_SESSION["step"] = 3;
+	if(array_key_exists('step',$_POST)){
+		if($_POST["step"] == 2) {
+			if(array_key_exists('complete',$_POST)) {
+				if($_POST["complete"] == 1){
+					$_SESSION["step"] = 3;
+				}
+				else {
+					$_SESSION["step"] = 2;
+				}
+			}
+			else {
+				$_SESSION["step"] = 2;
+			}
 		}
-		else {
-			$_SESSION["step"] = 2;
+		else if($_POST["step"] == 1) {
+			if(array_key_exists('cabang',$_POST)) {
+				$_SESSION["cabang"] = $_POST["cabang"];
+				$_SESSION["step"] = 2;
+			}
 		}
 	}
 	else {
