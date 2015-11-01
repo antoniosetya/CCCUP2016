@@ -14,13 +14,13 @@
 <section class="body">
 	<div class="content">
 		<!-- <p align="center" style="font-size : 24px">WELCOME!</p>
-		<p>This is the registration page. Select your choice below.</p>
-		<div class="butcont" align="center">
+		<p>This is the registration page. Select your choice below.</p> -->
+		<div class="butcont" align="center"> <!--
 			<a href="registration.php">Start Registration!</a>
-			<a href="see_data.php">Check Registration</a><br><br>
+			<a href="see_data.php">Check Registration</a><br><br> -->
+			<p>Registration are still closed now. Stay tuned for more information.</p>
 			<p align="center"><a href="../">Kembali ke Website Utama</a></p>
-		</div> -->
-		<p>Registration are still closed now. Stay tuned for more information.</p> 	
+		</div>	
 	</div> 
 </section>
 
