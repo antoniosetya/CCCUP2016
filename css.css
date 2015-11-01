@@ -390,6 +390,7 @@ border-radius : inherit;
 	color : white;
     margin : 100px 10% 20px 10%;
     background: rgba(0,0,0,0.7);
+	min-width : 1000px;
 }
 
 /* COMPETITIONS */
@@ -429,6 +430,65 @@ border-radius : inherit;
 	min-width : 600px;
 	max-width : 650px;
 }
+/* REGISTRATION */
+.butcont {
+	display : inline-block;
+	margin : 25px 15% 10px 25%;
+}
+	.butcont a {
+		display : inline-block;
+		padding : 20px;
+		margin : auto 20px auto 20px;
+		background-color : rgba(255,49,38,1);
+	}
+.sel-left, .sel-right {
+	display : inline-block;
+	width : 48%;
+}
+	.sel-left input, .sel-right input {
+		margin : 5px auto 5px 10px;
+	}
+.step-status {
+	padding : 7px 10px;
+	color : white; 
+	background-color : rgba(255,49,38,0.7);
+}
+.button {
+	display : inline-block;
+	padding : 10px;
+	color : white;
+	font-family : "Montserrat";
+	font-size : 16px;
+	background-color : rgba(255,49,38,1);
+	border : 1px solid rgba(255,49,38,1);
+}
+	.button:hover{
+		border : 1px solid RGBA(136,136,136,1);
+		cursor : pointer;
+		box-shadow : 0px 0px 15px #999999;
+	}
+.content table {
+	margin : 25px 20% 25px 20%;
+}
+.content table td {
+	margin : 3px;
+}
+.content table td p {
+	margin : 3px;
+}
+.content table td a {
+	display : inline-block;
+	padding : 10px;
+	color : white;
+	text-decoration : none;
+	background-color : rgba(255,49,38,1);
+	border : 1px solid rgba(255,49,38,1);
+}
+	.content table td a:hover {
+		border : 1px solid RGBA(136,136,136,1);
+		cursor : pointer;
+		box-shadow : 0px 0px 15px #999999;
+	}
 /*===================================
    			   FOOTERS
 ===================================== */
@@ -440,7 +500,7 @@ footer {
 	margin-left : 0px;
 	margin-right : 0px;
 	margin-bottom : 0px;
-	min-width : auto;
+	min-width : 1000px;
 	width : 100%;
 	height : 95px;
 	background-color : linear-gradient(#000000, #222222);

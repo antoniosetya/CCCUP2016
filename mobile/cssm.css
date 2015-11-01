@@ -24,6 +24,11 @@ a, .ui-link {
 	font-size : inherit;
 	color : white;
 }
+a:visited, .ui-link:visited {
+	font-family : inherit;
+	font-size : inherit;
+	color : white;
+}
 h1 {
 	font-family : "GearedSlabBold";
 	color : white;
@@ -34,7 +39,7 @@ h1 {
 p {
 	font-family : "Montserrat";
 	color : white;
-	font-size : 18px;
+	font-size : 15px;
 }
 ul, li {
 	font-family : "Montserrat";
@@ -62,6 +67,8 @@ ul, li {
 ==================================================== */
 .countdown {
 	height : auto;
+	font-family : GearedSlab;
+	font-size : 36px;
     flex : 0 1 100%;
     padding : 10px;
 	color : white;
@@ -130,7 +137,9 @@ ul, li {
 	text-decoration : none;
 }
 
- /*!
+/* ADDITIONAL ICONS 
+
+
 * jQuery Mobile Icon Pack - Font Awesome version 1.4.0
 *
 * Copyright 2013 Andy Matthews

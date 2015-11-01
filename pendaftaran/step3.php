@@ -1,0 +1,1 @@
+<div class="step-status" align="right">STEP 3 : Konfirmasi</div>

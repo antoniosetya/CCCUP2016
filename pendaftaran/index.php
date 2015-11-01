@@ -13,31 +13,15 @@
 
 <section class="body">
 	<div class="content">
-		<!-- <form name="form1" method="POST" action="save.php">
-		<table>
-			<tr>
-			<td>Nama : </td>
-			<td><input type="text" name="nama"</td>
-		</tr>
-		<tr>
-			<td>Alamat Email : </td>
-			<td><input type="text" name="email"></td>
-		</tr>
-		<tr>
-			<td>Pesan : </td>
-		</tr>
-		<tr>
-			<td><textarea name="pesan" rows="5" cols="30"></textarea></td>
-		</tr>
-		<tr>
-			<td><input type="submit" value="Simpan" name="simpan"></td>
-		</tr>
-	</table>
-<br><br>
-	</form> -->
-<p>Registration are still closed now. Stay tuned for more information</p>
-<p align="center"><a href="../" style="padding : 15px;background-color : #333333;">Kembali ke Website Utama</a></p>	
-</div> 
+		<!-- <p align="center" style="font-size : 24px">WELCOME!</p>
+		<p>This is the registration page. Select your choice below.</p>
+		<div class="butcont" align="center">
+			<a href="registration.php">Start Registration!</a>
+			<a href="see_data.php">Check Registration</a><br><br>
+			<p align="center"><a href="../">Kembali ke Website Utama</a></p>
+		</div> -->
+		<p>Registration are still closed now. Stay tuned for more information.</p> 	
+	</div> 
 </section>
 
 <?php
