@@ -14,7 +14,8 @@
 	<?php 
 		include("header.php");
 	?>
-	<div data-role="main" class="ui-content" style="background-image : url('../img/background.png');">
+	<div data-role="main" class="ui-content">
+		<a href="#menu" class="menu-button"><p>Menu</p></a>
 		<h1 align="center">LATEST NEWS</h1>
 		<div class="news" align="center">
 		<ul>
@@ -23,7 +24,7 @@
 			foreach(glob("../newsdata/*.php") as $file) {
 			$filename = str_replace("../newsdata/","",$file);
 			$filename = str_replace(".php","",$filename);
-				echo '<li><a href="news-read.php?id='.md5($filename).'">'.$filename.'</a></li>';
+				echo '<a href="news-read.php?id='.md5($filename).'"><li>'.$filename.'</li></a>';
 			$i++;
 			}
 		?>

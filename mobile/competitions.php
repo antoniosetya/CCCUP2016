@@ -17,8 +17,10 @@
 <?php
 	include("header.php");
 ?>
-	<div data-role="main" class="ui-content" style="background-image : url('../img/background.png');">
+	<div data-role="main" class="ui-content">
+		<a href="#menu" class="menu-button"><p>Menu</p></a>
 		<h1 align="center">OUR COMPETITIONS</h1>
+		<div style="margin : auto 3% auto 3%;">
 		<p>We have 16 competitions to watch and participate here! Tap on each selection to read more.</p>
 			<div data-role="collapsible">
 				<h1>SEPAK BOLA</h1> 
@@ -84,7 +86,7 @@
 				<h1>PASKIBRA</h1>
 				<p><?php include("../compdata/paskibra.php"); ?></p>
 			</div>
-		</ul></p>
+		</div>
 	</div>
 	<?php	
 		include("footer.php");

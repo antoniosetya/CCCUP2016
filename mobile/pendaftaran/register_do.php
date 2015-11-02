@@ -49,7 +49,7 @@
 	}
 	else if ($cabang == "B-BOY") {
 		$cab_kode = "12";
-		$cab = "b-boy";
+		$cab = "b_boy";
 	}
 	else if ($cabang == "BAND") {
 		$cab_kode = "13";
@@ -87,11 +87,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset = "utf-8">
-	<link href="../css.css" rel="stylesheet" type="text/css" />
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+	<link rel="stylesheet" href="../cssm.css">
 	<title>Pendaftaran - Canisius College Cup 2016</title>
-	<link rel="icon" href="../img/logo.png">
+	<link rel="icon" href="../../img/logo.png">
 </head>
 <body>
 
@@ -114,9 +116,9 @@
 			error_reporting(E_ALL);
 			ini_set('display_errors',1);
 			<h1 align="center">REGISTRASI GAGAL</h1>
-			<p align="center">Sepertinya telah terjadi kesalahan yang menyebabkan data tidak bisa masuk.<br>
+			<p align="center">Sepertinya, terjadi kesalahan teknis yang menyebabkan data tidak bisa dikirim.<br>
 			Terjadi error seperti berikut : <?php echo $conn->error ?><br>
-			Silahkan kontak panitia dengan menyebutkan error tersebut, atau coba input data lagi. <br>
+			Silahkan kontak panitia dengan menyebutkan error tersebut, atau coba input data lagi. <br><br>
 			<div class="butcont" align="center">
 				<a href="../">Kembali ke Website Utama</a>
 				<a href="./">Kembali ke Halaman Pendaftaran</a>

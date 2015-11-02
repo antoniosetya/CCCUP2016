@@ -24,10 +24,11 @@ a, .ui-link {
 	font-size : inherit;
 	color : white;
 }
-a:visited, .ui-link:visited {
+.ui-page-theme-a a:visited, .ui-bar-a a:visited, .ui-body-a a:visited, .ui-group-theme-a a:visited  {
 	font-family : inherit;
 	font-size : inherit;
 	color : white;
+	text-decoration : none;
 }
 h1 {
 	font-family : "GearedSlabBold";
@@ -59,9 +60,12 @@ ul, li {
 	font-family : "GearedSlabBold";
 	src : url("../fonts/GearedSlab-Bold.ttf");
 }
-.ui-page {
+.ui-page, .ui-content {
 	background-image : url("../img/background.png");
+	padding : 0;
+	padding-top : 20px;
 }
+
 /* =================================================
 				HOME PAGE 
 ==================================================== */
@@ -78,8 +82,39 @@ ul, li {
 /* ==================================================
 				    	HEADER/MENU BAR
 =====================================================  */
-
-
+.menu-button {
+	position : absolute;
+	padding : 10px;
+	top : 1%;
+	left : 0;
+	background-color : red;
+	box-shadow : 0px 0px 5px #fff;
+	text-decoration : none;
+}
+	.menu-button p {
+		margin : 0px;
+	}
+.ui-panel a {
+	text-align : center;
+	width : 100%;
+	text-decoration : none;
+}
+.ui-panel ul {
+	list-style-type : none;
+	margin : 0px;
+	padding : 0px;
+}
+.ui-panel ul a li {
+	padding : 2px auto 2px auto;
+	margin : 0px;
+	height : 35px;
+	border-bottom : 1px solid #fff;
+	border-top : 1px solid #fff;
+}
+	.ui-panel ul li:hover, .ui-panel ul a:hover {
+		background-color : rgba(255,255,255,0.6);
+		color : red;
+	}
 /* ==================================================
 				BODY CONTENTS
 ===================================================== */
@@ -91,9 +126,6 @@ ul, li {
 	color : white;
     margin : 30px 5% 20px 5%;
     background: rgba(0,0,0,0.4);
-}
-.ui-content {
-	margin-top : 50px;
 }
 /*              ABOUT 				*/
 .about {
@@ -136,6 +168,78 @@ ul, li {
 	color : white;
 	text-decoration : none;
 }
+	.news ul li a:hover, .news ul li:hover {
+		background-color : rgba(255,255,255,0.6);
+	}
+/* REGISTRATION */
+.butcont {
+	display : inline-block;
+	width : 100%;
+}
+	.butcont p a, .butcont a {
+		display : inline-block;
+		padding : 20px;
+		margin : auto 20px 10px 20px;
+		background-color : rgba(255,49,38,1);
+		border-radius : 10px;
+		text-decoration : none;
+		color : inherit;
+	}
+	.butcont p a:hover, .butcont a:hover {
+		border : 1px solid RGBA(136,136,136,1);
+		cursor : pointer;
+		box-shadow : 0px 0px 15px #999999;
+		color : white;
+	}
+.step-status {
+	padding : 7px 10px;
+	color : white; 
+	background-color : rgba(255,49,38,0.7);
+}
+.button {
+	display : inline-block;
+	padding : 10px;
+	color : white;
+	font-family : "Montserrat";
+	font-size : 16px;
+	background-color : rgba(255,49,38,1);
+	border : 1px solid rgba(255,49,38,1);
+	border-radius : 10px;
+}
+	.button:hover{
+		border : 1px solid RGBA(136,136,136,1);
+		cursor : pointer;
+		box-shadow : 0px 0px 15px #999999;
+		color : white;
+	}
+.content table td {
+	margin : 3px;
+}
+.content table td p {
+	margin : 3px;
+}
+.content table td a {
+	display : inline-block;
+	padding : 10px;
+	color : white;
+	text-decoration : none;
+	background-color : rgba(255,49,38,1);
+	border : 1px solid rgba(255,49,38,1);
+	border-radius : 10px;
+	text-decoration : none;
+	color : inherit;
+}
+	.content table td a:hover {
+		border : 1px solid RGBA(136,136,136,1);
+		cursor : pointer;
+		box-shadow : 0px 0px 15px #999999;
+	}
+input, button, .ui-input-text, .ui-button {
+	margin-bottom : 10px;
+}
+/* ============================================
+				FOOTERS
+================================================ */
 
 /* ADDITIONAL ICONS 
 

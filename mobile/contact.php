@@ -16,7 +16,8 @@
 	include('header.php');
 ?>
 
-<div data-role="main" class="ui-content" style="background-image : url('../img/background.png');">
+<div data-role="main" class="ui-content">
+	<a href="#menu" class="menu-button"><p>Menu</p></a>
 	<h1 align="center">CONTACT US</h1>
 	<div class="content" align="center">
 		<p style="font-size : 20px">Ketua Canisius College Cup</p>

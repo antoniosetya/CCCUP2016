@@ -1,15 +1,13 @@
-<div data-role="header">
-	<div data-role="navbar" style="border-bottom : 1px solid #ddd;">
-    	<ul>
-        	<li><a class="ui-icon-home ui-btn-icon-left" href="index.php">Home</a></li>
-      		<li><a class="ui-icon-question-circle ui-btn-icon-left" href="about.php">About</a></li>
-			<li><a class="ui-icon-list-alt ui-btn-icon-left" href="news.php">News</a></li>
-		</ul>
-	</div>
-	<div data-role="navbar">
-		<ul>
-        	<li><a class="ui-icon-external-link3 ui-btn-icon-left" href="competitions.php">Competitions</a></li>
-			<li><a class="ui-icon-user ui-btn-icon-left" href="contact.php">Contact</a></li>
-    	</ul>
-  	</div>			
-</div>
+<div data-role="panel" id="menu" style="background-color : black">
+    	<div align="center"><img src="../img/menulogo.png" width="250px" height="125px"></div>
+        <p style="color : white">
+           <ul>
+               <a href="index.php"><li>Home</li></a>
+      	       <a href="about.php"><li>About</li></a>
+		       <a href="news.php"><li>News</li></a>
+               <a href="competitions.php"><li>Competitions</li></a>
+		       <a href="./pendaftaran/"><li>Registration</li></a>
+		       <a href="contact.php"><li>Contact</li></a>
+            </ul>
+        </p>
+</div>			

@@ -14,7 +14,8 @@
 	<?php 
 		include("header.php");
 	?>
-	<div data-role="main" class="ui-content" style="background-image : url('../img/background.png');">
+	<div data-role="main" class="ui-content">
+		<a href="#menu" class="menu-button"><p>Menu</p></a>
 		<div class="about">
 			<p>This section is currently under construction. Come back here later!</p>
 		</div>
