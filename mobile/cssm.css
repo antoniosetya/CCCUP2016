@@ -63,7 +63,7 @@ ul, li {
 .ui-page, .ui-content {
 	background-image : url("../img/background.png");
 	padding : 0;
-	padding-top : 20px;
+	padding-top : 30px;
 }
 
 /* =================================================
@@ -85,7 +85,7 @@ ul, li {
 .menu-button {
 	position : absolute;
 	padding : 10px;
-	top : 1%;
+	top : 0.5%;
 	left : 0;
 	background-color : red;
 	box-shadow : 0px 0px 5px #fff;

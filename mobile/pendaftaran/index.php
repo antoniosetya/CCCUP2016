@@ -20,7 +20,7 @@
 		<p align="center" style="color : red">PENDAFTARAN MASIH DITUTUP. SISTEM INI MASIH DALAM UJI COBA.</p>
 		<div class="butcont" align="center"><p align="center">
 			<a href="registration.php">Start Registration!</a>
-			<a href="see_data.php">Check Registration<br>COMING SOON</a></p>
+			<a href="see_data.php">Check Registration</a></p>
 			<p align="center"><a href="../">Kembali ke Website Utama</a></p>
 		</div>
 </div> 

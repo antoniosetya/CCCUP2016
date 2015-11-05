@@ -68,7 +68,7 @@
 		$cab = "paskibra";
 	}	
 	$par_code = "2016".$cab_kode;
-	$conn = mysqli_connect("localhost","root","","dbpeserta");
+	$conn = mysqli_connect("sql18.idhostinger.com","u626164713_cc16","persevera08","u626164713_serta");
 	$sqll = "SELECT * FROM $cab ORDER BY id";
 	$queryy = mysqli_query($conn,$sqll);
 	$result = mysqli_num_rows($queryy);

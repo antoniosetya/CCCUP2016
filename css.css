@@ -388,7 +388,7 @@ border-radius : inherit;
     flex : 0 1 100%;
     padding : 10px;
 	color : white;
-    margin : 100px 10% 20px 10%;
+    margin : 75px 10% 20px 10%;
     background: rgba(0,0,0,0.7);
 	min-width : 1000px;
 }
@@ -437,10 +437,16 @@ border-radius : inherit;
 }
 	.butcont p a, .butcont a {
 		display : inline-block;
-		padding : 20px;
+		padding : 10px;
+		font-size : 16px;
 		margin : auto 20px auto 20px;
 		background-color : rgba(255,49,38,1);
 		border-radius : 10px;
+	}
+	.butcont p a:hover, .butcont a:hover {
+		border : 1px solid RGBA(136,136,136,1);
+		cursor : pointer;
+		box-shadow : 0px 0px 15px #999999;
 	}
 .sel-left, .sel-right {
 	display : inline-block;
@@ -454,7 +460,7 @@ border-radius : inherit;
 	color : white; 
 	background-color : rgba(255,49,38,0.7);
 }
-.button {
+.button, .butcont button {
 	display : inline-block;
 	padding : 10px;
 	color : white;
@@ -464,7 +470,7 @@ border-radius : inherit;
 	border : 1px solid rgba(255,49,38,1);
 	border-radius : 10px;
 }
-	.button:hover{
+	.button:hover, .butcont button:hover {
 		border : 1px solid RGBA(136,136,136,1);
 		cursor : pointer;
 		box-shadow : 0px 0px 15px #999999;
